@@ -144,7 +144,9 @@ export const Graphs = ({ screenTimeData, loading, period }: GraphsProps) => {
                     ))}
                 </div>
 
-                <div className="h-px bg-white my-8 mx-16"></div>
+                <div className="w-full flex justify-center my-8">
+                    <div className="w-3/4 h-1 bg-white rounded"></div>
+                </div>
                 <div className="flex justify-between gap-64 my-24">
                     <h3 className="text-gray-300 font-bold">Total Screen Time</h3>
                     {loading ? (
